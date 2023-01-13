@@ -1,5 +1,7 @@
 steps:
   - name: 'gcr.io/cloud-builders/mvn'
-    args: ['clean''install']
+    args: ['install']
+  - name: 'gcr.io/cloud-builders/mvn'
+    args: ['install']
   - name: 'gcr.io/cloud-builders/gcloud'
     args: ['app', 'deploy']
