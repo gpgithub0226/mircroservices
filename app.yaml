@@ -1,4 +1,4 @@
-runtime: java16
+runtime: java8
 env: standard
 
 handlers:
